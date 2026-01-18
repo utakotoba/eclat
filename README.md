@@ -6,7 +6,7 @@
 
 Currently, we have two reference implementations — a [Visual Studio Code Theme](https://github.com/utakotoba/vscode-theme-eclat) and a [Zed Theme](https://github.com/utakotoba/eclat-zed) — which showcase the initial aesthetic of the palette. While these themes perform well in most scenarios, their colors were primarily hand-picked based on visual intuition rather than precise calculation. As a result, they may not yet provide optimal performance or consistent accessibility across all environments.
 
-To address this, I am currently refining the palette using the ~~OKLCH~~ (consider CAM16-UCS as for now) color space and APCA (Advanced Perceptual Contrast Algorithm) standards — the cutting edge of modern color theory. Transitioning to this scientific approach allows us to generate consistent color tokens for diverse use cases efficiently. Ultimately, this framework will serve as a tool to help you port and optimize your own themes using a data-driven, perceptually uniform methodology.
+I am experimenting with a non-traditional method for generating color palette. I have established multiple sets of constraint equations and evaluated them in CAM16. Using gradient descent within the constraints, I am seeking optimal solutions based on several rough sensory input parameters.
 
 ### License
 
